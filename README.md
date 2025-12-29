@@ -1,7 +1,11 @@
-# Booking Garage Spot using RabbitMQ
- 
-Welcome to our microservices project! This project consists of three microservices: Booking, Garage Management, and Notification. Each microservice handles specific functionalities and communicates with others through HTTP requests or message queues.
+# 🚗 Garage Booking System with RabbitMQ
 
+A robust microservices-based application designed to handle garage parking reservations. This project demonstrates the implementation of **Event-Driven Architecture** using **RabbitMQ** as a message broker to decouple the booking ingestion service from the processing logic.
+
+### 🚀 Key Features
+* **Asynchronous Processing:** Handles high volumes of booking requests without blocking the user interface.
+* **Message Queuing:** Uses RabbitMQ to ensure reliable message delivery between producers (booking API) and consumers (processing workers).
+* **Scalability:** The architecture allows for easy scaling of consumer workers to handle peak loads.
 ## Installation and Setup
 
 ### Prerequisites
